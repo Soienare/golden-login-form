@@ -1,5 +1,116 @@
 body{
     background-image: url("https://www.teahub.io/photos/full/114-1140754_gold-background-no-copyright.jpg");
+    height: 100%; 
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;
+}
+.log-panel{
+    background-color: 222222;
+    border-radius: 0px;
+    box-shadow: -5px 5px gold;
+    height: 100%;
+    width: 100%;
+    max-height: 240px;
+    max-width: 360px;
+    color: white;
+    margin-top: 240px;
+}
+.username-input{
+    background-color: 000000;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: -1px 1px gold;
+    height: 100%;
+    width: 100%;
+    max-height: 32px;
+    max-width: 240px;
+    color: white;
+    transition: 0.3s;
+    padding: 5 25px;
+}
+.username-input:hover{
+    background-color: 111111;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: -2px 2px gold;
+    height: 100%;
+    width: 100%;
+    max-height: 32px;
+    max-width: 240px;
+    color: white;
+}
+.password-input{
+    background-color: 000000;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: -1px 1px gold;
+    height: 100%;
+    width: 100%;
+    max-height: 32px;
+    max-width: 240px;
+    color: white;
+    transition: 0.3s;
+    padding: 5 25px;
+}
+.password-input:hover{
+    background-color: 111111;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: -2px 2px gold;
+    height: 100%;
+    width: 100%;
+    max-height: 32px;
+    max-width: 240px;
+    color: white;
+}
+.login-button{
+    background-color: 000000;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: -2px 2px gold;
+    height: 100%;
+    width: 100%;
+    max-height: 24px;
+    max-width: 128px;
+    color: white;
+    transition: 0.3s;
+}
+.login-button:hover{
+    background-color: 111111;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: -2px 2px gold;
+    height: 100%;
+    width: 100%;
+    max-height: 24px;
+    max-width: 128px;
+    color: white;
+}
+.cancel-button{
+    background-color: 000000;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: -2px 2px gold;
+    height: 100%;
+    width: 100%;
+    max-height: 24px;
+    max-width: 128px;
+    color: white;
+    transition: 0.3s;
+}
+.cancel-button:hover{
+    background-color: 111111;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: -2px 2px gold;
+    height: 100%;
+    width: 100%;
+    max-height: 24px;
+    max-width: 128px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
